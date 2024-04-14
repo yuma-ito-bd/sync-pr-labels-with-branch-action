@@ -1,21 +1,20 @@
 {
-  "name": "typescript-action",
-  "description": "GitHub Actions TypeScript template",
+  "name": "sync-pr-labels-with-branch-action",
+  "description": "GitHub Actions to sync the Pull Request's label with the branch status",
   "version": "0.0.0",
-  "author": "",
+  "author": "Yuma Ito",
   "private": true,
-  "homepage": "https://github.com/actions/typescript-action",
+  "homepage": "https://github.com/yuma-ito-bd/sync-pr-labels-with-branch-action",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/yuma-ito-bd/sync-pr-labels-with-branch-action.git"
   },
   "bugs": {
-    "url": "https://github.com/actions/typescript-action/issues"
+    "url": "https://github.com/yuma-ito-bd/sync-pr-labels-with-branch-action/issues"
   },
   "keywords": [
     "actions",
-    "node",
-    "setup"
+    "node"
   ],
   "exports": {
     ".": "./dist/index.js"
